@@ -91,8 +91,8 @@ if __name__ == '__main__':
     CMD ["python3", "app.py"]
     ```
 
-- `compose.yaml`: Define los servicios para Docker Compose en caso de tener multiples servicios o **contenedores**.
 ```
+- `compose.yaml`: Define los servicios para Docker Compose en caso de tener multiples servicios o **contenedores**.
 
 ## Notas
 
