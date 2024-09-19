@@ -32,7 +32,7 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
     ```
     3. Construye el contenedor en base a la imagen Docker:
     ```sh
-    docker run -p 8080:8080 flask-app
+    docker run -p 8080:8080 flask-docker
     ```
 
 
