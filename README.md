@@ -78,9 +78,7 @@ if __name__ == '__main__':
 ```
 
     
-    ```
 
-- `Dockerfile`: Define cómo se construye la imagen Docker para la aplicación.
     ```dockerfile
     FROM python:3.8-slim
 
