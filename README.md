@@ -31,10 +31,6 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
     docker build -t flask-docker .
     ```
 
-3. Ejecuta la aplicación usando Docker Compose:
-    ```sh
-    docker-compose up
-    ```
 
 4. Abre tu navegador y ve a `http://localhost:8080` para ver la aplicación en funcionamiento.
 
