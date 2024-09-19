@@ -36,7 +36,7 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
     docker-compose up
     ```
 
-4. Abre tu navegador y ve a `http://localhost:5000` para ver la aplicación en funcionamiento.
+4. Abre tu navegador y ve a `http://localhost:8080` para ver la aplicación en funcionamiento.
 
 ## Explicación del Código
 
@@ -51,7 +51,7 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
         return render_template('index.html')
 
     if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=5000)
+        app.run(host='0.0.0.0', port=8080)
     ```
 
 - `Dockerfile`: Define cómo se construye la imagen Docker para la aplicación.
