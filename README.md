@@ -30,6 +30,10 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
     ```sh
     docker build -t flask-docker .
     ```
+    3. Construye el contenedor en base a la imagen Docker:
+    ```sh
+    docker run -p 8080:8080 flask-app
+    ```
 
 
 4. Abre tu navegador y ve a `http://localhost:8080` para ver la aplicación en funcionamiento.
