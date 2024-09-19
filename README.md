@@ -65,7 +65,7 @@ Este proyecto es una aplicación web simple utilizando Flask y Docker.
 
     COPY . .
 
-    CMD ["python", "app.py"]
+    CMD ["python3", "app.py"]
     ```
 
 - `compose.yaml`: Define los servicios para Docker Compose.
