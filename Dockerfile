@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expone el puerto en el que la aplicación correrá
-EXPOSE 8080
+EXPOSE 403
 
 # Comando para ejecutar la aplicación con Gunicorn
 CMD ["python3", "app.py"]
