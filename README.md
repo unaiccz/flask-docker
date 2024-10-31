@@ -99,3 +99,32 @@ if __name__ == '__main__':
 - Asegúrate de tener Docker y Docker Compose instalados en tu máquina.
 - Puedes modificar `index.html` en el directorio `templates/` para cambiar la apariencia de la aplicación.
 
+
+## Despliegue en Vercel
+
+### Paso 1: Crear una cuenta en Vercel
+Si aún no tienes una cuenta en Vercel, puedes crear una en [vercel.com](https://vercel.com/).
+
+### Paso 2: Conectar tu repositorio de GitHub
+1. Inicia sesión en Vercel.
+2. En el panel de control, haz clic en "New Project".
+3. Selecciona "Import Git Repository".
+4. Autoriza a Vercel a acceder a tu cuenta de GitHub y selecciona el repositorio `unaiccz/flask-docker`.
+
+### Paso 3: Configurar el proyecto
+1. En la configuración del proyecto, asegúrate de que el framework sea detectado correctamente (puede que necesites seleccionar "Other" si Flask no aparece automáticamente).
+2. Configura las variables de entorno necesarias para tu aplicación Flask. Puedes añadirlas en la sección "Environment Variables".
+
+### Paso 4: Desplegar la aplicación
+1. Haz clic en "Deploy" para iniciar el despliegue de tu aplicación.
+2. Vercel comenzará a construir y desplegar tu aplicación Flask en un dominio generado automáticamente.
+
+### Paso 5: Verificar el despliegue
+Una vez completado el despliegue, deberías ver un enlace a tu aplicación desplegada. Haz clic en el enlace para verificar que tu aplicación Flask está funcionando correctamente en Vercel.
+
+### Paso 6: Configurar un dominio personalizado (opcional)
+Si deseas utilizar un dominio personalizado, puedes configurarlo en la sección "Domains" del panel de control de Vercel.
+
+¡Y eso es todo! Ahora tu aplicación Flask está desplegada en Vercel.
+
+
