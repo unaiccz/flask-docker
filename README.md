@@ -122,3 +122,27 @@ El archivo `vercel.json` es utilizado por Vercel para configurar el despliegue d
     }
   ]
 }
+
+
+
+Explicación de los campos
+version: Especifica la versión de configuración de Vercel. En este caso, se está utilizando la versión 2, que es la más reciente y recomendada.
+
+builds: Define cómo Vercel debe construir tu proyecto.
+
+src: Especifica el archivo de entrada que se utilizará para construir la aplicación, en este caso, app.py.
+use: Especifica el runtime o builder que se utilizará. Aquí se está utilizando @vercel/python, que es el runtime para aplicaciones Python.
+routes: Configura las rutas de la aplicación.
+
+src: Define un patrón de ruta usando una expresión regular. En este caso, /(.*) coincide con todas las rutas.
+dest: Especifica el destino al que se debe redirigir la ruta. Aquí, todas las rutas se redirigen a app.py.
+Uso del archivo vercel.json
+Este archivo debe estar en la raíz de tu proyecto. Cuando despliegues tu aplicación en Vercel, este archivo será utilizado para configurar y construir tu aplicación automáticamente.
+
+Ejemplo de Despliegue en Vercel
+Crear una cuenta en Vercel: Si aún no tienes una cuenta en Vercel, puedes crear una en vercel.com.
+Conectar tu repositorio de GitHub: Autoriza a Vercel a acceder a tu cuenta de GitHub y selecciona el repositorio unaiccz/flask-docker.
+Configurar el proyecto: Asegúrate de que el framework sea detectado correctamente y configura las variables de entorno necesarias.
+Desplegar la aplicación: Haz clic en "Deploy" para iniciar el despliegue de tu aplicación.
+Verificar el despliegue: Una vez completado el despliegue, deberías ver un enlace a tu aplicación desplegada.
+Siguiendo estos pasos y utilizando el archivo vercel.json correctamente configurado, tu aplicación Flask debería desplegarse sin problemas en Vercel.
